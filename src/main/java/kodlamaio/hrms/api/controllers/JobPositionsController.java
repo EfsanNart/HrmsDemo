@@ -30,6 +30,11 @@ public class JobPositionsController {
 		return this.jobPositionService.add(jobPosition);
 	}
 	
+//	@PostMapping("/update")
+//	public Result update(@RequestBody JobPosition jobPosition){
+//		return this.jobPositionService.update(jobPosition);
+//	}
+	
 	@GetMapping("/getall")
 	public DataResult<List<JobPosition>> getAll(){
 		return this.jobPositionService.getAll();
