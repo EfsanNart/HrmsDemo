@@ -15,6 +15,7 @@ import kodlamaio.hrms.entities.concretes.Jobseeker;
 @RequestMapping("/api/auth")
 public class AuthController {
 
+	
 	private AuthService authService;
 
 	@Autowired
