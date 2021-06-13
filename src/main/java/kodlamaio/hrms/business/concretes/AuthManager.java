@@ -102,7 +102,7 @@ public class AuthManager implements AuthService {
 		return new SuccessResult("Registration has been successfully completed");
 	}
 
-	// Validation for employer register ---START---
+	
 
 	private boolean checkIfNullInfoForEmployer(Employer employer) {
 
@@ -128,9 +128,7 @@ public class AuthManager implements AuthService {
 		return false;
 	}
 
-	// Validation for employer register ---END---
-
-	// Validation for jobseeker register ---START---
+	
 	
 	private boolean checkIfNullInfoForJobseeker(Jobseeker jobseeker, String confirmPassword) {
 
@@ -161,9 +159,7 @@ public class AuthManager implements AuthService {
 		return false;
 	}
 
-	// Validation for jobseeker register ---END---
-
-	// Common Validation
+	
 
 	private boolean checkIfEmailExists(String email) {
 

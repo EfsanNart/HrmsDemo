@@ -11,13 +11,13 @@ import kodlamaio.hrms.business.abstracts.CityService;
 import kodlamaio.hrms.core.utilities.results.DataResult;
 
 @RestController
-@RequestMapping("/api/city")
-public class CityController {
+@RequestMapping("/api/cities")
+public class CitiesController {
 
 	private CityService cityService;
 
 	@Autowired
-	public CityController(CityService cityService) {
+	public CitiesController(CityService cityService) {
 		super();
 		this.cityService = cityService;
 	}
