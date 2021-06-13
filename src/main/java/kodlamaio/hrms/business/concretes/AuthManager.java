@@ -30,6 +30,7 @@ public class AuthManager implements AuthService {
 	private VerificationCodeService verificationCodeService;
 
 	
+	
 	@Autowired
 	public AuthManager(UserService userService, EmployerService employerService, JobseekerService jobseekerService,
 			VerificationService verificationService, ValidationService validationService,
